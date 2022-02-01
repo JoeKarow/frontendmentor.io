@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217,54%,11%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    /* justify-self: center; */
+    align-items: flex-start;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    padding: 0 37.5px;
+}
+main.container {
+    height: 600px;
+    width: 375px;
+    /* flex-direction: column; */
+    align-self:center;
+    /* align-content: center; */
+    /* justify-content: center; */
+    background-color: hsl(216,50%,16%);
+    border-radius: 10px;
+    /* padding: 0 37.5; */
+    /* flex:0 1; */
+    /* align-content: flex-start; */
+}
+.cardImgMain{
+    width: 300px;
+    height:300px;
+    border-radius: 6px;
+    margin: 37.5px auto;
+    display: block;
+    /* flex-basis: auto; */
+    /* align-self: center; */
+
+}
+h1 {
+    color: hsl(178, 100%,50%);
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    color: hsl(215,51%,70%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+span {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color:hsl(215, 51%, 70%);
+}
+.cost{
+    float:left;
+}
+.time {
+    float: right;
+}
+.cost img,.time img{
+    margin-right: 5px;
+}
+
+.clear::after{
+    clear: both;
+}
+div.author{
+    align-items: center;
+    margin: 50px 0 0 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding: 15px 0;
+    display: flex
+}
+.author img{
+    height: 35px;
+    margin-right: 20px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+footer{
+    position:absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.attribution {
+    font-size: 11px; 
+    color: white;
+    text-align: center;
+    align-self: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
